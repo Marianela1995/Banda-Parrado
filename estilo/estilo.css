@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #BFFF00;
+}
+
+.logo{
+    width: 100%; 
+    background: radial-gradient(#790216, black, black); 
+    }
+
+.titulo{
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr, 1fr;
+    grid-template-rows: 1fr, 3fr, 1fr;
+}
+/* estilo del menu */
+
+.menu{
+    list-style-type: none;
+    margin: 5px;
+    background-color: #BFFF00;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #BFFF00;
+    text-align: center;
+}
+.menu li:hover{
+    background-color:grey;
+}
+
+/*estilo del contenido principal*/
+
+.descripcion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.descripcion section{
+    padding: 15px;
+}
+@media only screen and (max-width: 768px){
+    .descripcion{
+        display: flex;
+        flex-direction: column;  
+    }
+}
+
+/* estilo del footer */
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: white;
+    font-size: 15px;
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* estilos de las tablas */
+
+.integrantes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .integrantes{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+.discografia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.discografia a{
+    color: white;
+}
+
+.conciertos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*estilo de merchandising*/
+
+.productos{
+    text-align: center;
+}
+
+.hijo{
+    padding: 10px;
+}
+
