@@ -19,6 +19,11 @@ body{
     text-align: center;
 }
 
+/*estilo de la animacion*/
+.animate__animated.animate__heartBeat:hover{
+    animation: infinite;
+}
+
 .contenedor{
     display: grid;
     grid-template-columns: 3fr, 1fr;
