@@ -70,8 +70,7 @@ body{
 }
 @media only screen and (max-width: 768px){
     .descripcion{
-        display: flex;
-        flex-direction: column;  
+        grid-template-columns: 1fr;  
     }
 }
 
@@ -100,7 +99,6 @@ footer p{
 
 @media only screen and (max-width:768px) {
     .integrantes{
-        display: grid;
         grid-template-columns: 1fr;
     }
     
