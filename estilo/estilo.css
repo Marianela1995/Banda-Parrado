@@ -17,6 +17,7 @@ body{
 .titulo{
     padding: 20px;
     text-align: center;
+    color:#ff002b;
 }
 
 /*estilo de la animacion*/
@@ -28,13 +29,15 @@ body{
     display: grid;
     grid-template-columns: 3fr, 1fr;
     grid-template-rows: 1fr, 3fr, 1fr;
+    background-color: black;
+    color:whitesmoke
 }
 /* estilo del menu */
 
 .menu{
     list-style-type: none;
     margin: 5px;
-    background-color: #BFFF00;
+    background-color: #ff002b; 
     align-items: center;
     display: grid;
     grid-template-columns: repeat(8,1fr);
@@ -51,7 +54,7 @@ body{
 .menu li a{
     text-decoration: none;
     display: inline-block;
-    color: #BFFF00;
+    color: whitesmoke;
     text-align: center;
 }
 .menu li:hover{
@@ -78,6 +81,7 @@ body{
 footer{
     text-align: center;
     padding: 20px;
+    background-color: black;
 }
 footer a{
     color: white;
@@ -87,6 +91,7 @@ footer a{
 footer p{
     margin-top: 10px;
     font-size: 15px;
+    color:#ff002b;
 }
 
 /* estilos de las tablas */
@@ -129,4 +134,3 @@ footer p{
 .hijo{
     padding: 10px;
 }
-
